@@ -138,10 +138,17 @@ footer {
 .productivity-text a {
     color:hsl(176, 68%, 64%);
     text-decoration:underline;
+    text-underline-offset: 8px;
 }
 
 .productivity-text a:hover {
     filter: brightness(0) invert(1);
+}
+
+.arrow {
+    margin-left:0.3rem;
+    position:relative;
+    top:3px;
 }
 
 .quotes {
